@@ -27,12 +27,15 @@ nextBtn.addEventListener("click", () => {
 
 checkBtn.addEventListener("click", () => {
   if (Number(cashGiven.value) >= Number(billAmt.value)) {
+    hideError();
     solution();
     for (let i = 0; i < notes.length; i++) {
       if (notes[i] === undefined) continue;
       notesRemaining[i].innerText = notes[i];
     }
     outputDiv.style.display = "block";
+  } else {
+    errorMsg("Please enter a valid amount");
   }
 });
 
@@ -49,6 +52,7 @@ var solution = () => {
 };
 
 var errorMsg = (text) => {
+  errorDiv.style.display = "block";
   errorDiv.innerHTML = "<p>" + text + "</p>";
 };
 
