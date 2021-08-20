@@ -1,5 +1,5 @@
 # cash Register Manager
-This is a cash register manager application that gives you how much money you need to return to a customer based on the bill and the cash amount given by customer.
+This is a cash register manager application that gives you how many minimum number of notes you need to return to a customer based on the bill and the cash amount given by customer.
 
 ## Build with:
 1. Javascript
