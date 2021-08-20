@@ -1,4 +1,4 @@
-# cash-register-manager
+# cash Register Manager
 This is a cash register manager application that gives you how much money you need to return to a customer based on the bill and the cash amount given by customer.
 
 ## Build with:
